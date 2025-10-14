@@ -1,0 +1,157 @@
+.course-list-container {
+  position: relative;
+  direction: rtl; /* Arabic layout */
+  padding: 5rem 2rem 0 2rem;
+  text-align: right;
+  min-height: 100vh;
+  background: #f9fafb;
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Larger screens padding */
+@media (min-width: 768px) {
+  .course-list-container {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+}
+
+/* Header */
+.course-list-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* On wider screens, side-by-side layout */
+@media (min-width: 768px) {
+  .course-list-header {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Title */
+.course-list-title {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 700;
+  color: #b91c1c; /* Deep red */
+  margin: 0;
+  text-shadow: 0 0 8px rgba(185, 28, 28, 0.25);
+}
+
+/* Breadcrumb */
+.course-list-breadcrumb {
+  color: #6b7280;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+.breadcrumb-home {
+  color: #b91c1c;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb-home:hover {
+  color: #dc2626; /* lighter red */
+}
+
+/* Grid for cards */
+.course-list-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 3rem 0;
+  padding: 0 0.5rem;
+}
+
+/* Responsive grid layout */
+@media (min-width: 600px) {
+  .course-list-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .course-list-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .course-list-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Optional subtle fade-in for cards */
+.course-list-grid > * {
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Search info box */
+.search-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #d1d5db;
+  margin: 2rem 0;
+  color: #374151;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.search-info:hover {
+  background-color: #fff5f5;
+  border-color: #b91c1c;
+  color: #b91c1c;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(185, 28, 28, 0.2);
+}
+
+/* Small cross button or icon */
+.cross {
+  cursor: pointer;
+  color: #b91c1c;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.cross:hover {
+  transform: rotate(90deg);
+}
+
+/* Responsive typography and padding tweaks */
+@media (max-width: 480px) {
+  .course-list-title {
+    font-size: 1.6rem;
+  }
+
+  .course-list-breadcrumb {
+    font-size: 0.9rem;
+  }
+
+  .search-info {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+}
