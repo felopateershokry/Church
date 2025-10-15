@@ -6,7 +6,7 @@
   justify-content: center;
 
   width: 100%;
-  height: 100%;
+  height: 100vh;
 
   background: linear-gradient(135deg, #000000, #b30000);
   color: #fff;
@@ -117,4 +117,22 @@
   display: flex;
   justify-content: center;
   gap: 1rem
+}
+
+@media (min-width: 600px) {
+  .home{
+    height: 100vh;
+  }
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .home-image img {
+    width: 200px;
+  }
+
 }
