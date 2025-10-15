@@ -64,8 +64,66 @@ export const assets = {
 //     "totalCourses": 8
 // }
 
+export const dummyKhodam = [
+        {
+        "instructor": {
+            "_id": "101",
+            "name": "سمير شحاته",
+            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/560452038_10239126476810369_4581413323673400630_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG4JTpgYIBoNe5Bc6IzomMPMUmQtKpsfE8xSZC0qmx8T46CKJv7zB4vsCUlnLPqRxvrZn1XYYqZfEf86TVC5BYi&_nc_ohc=gH3hZCWRYjEQ7kNvwFyQkvD&_nc_oc=Adm5qVblZhhIufN4eazyz9dhrFl4p9VouCGewzLw-SHLCCwDaoq1sJUwE0hIZrhVx4U&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=CciBULKZmj4VMGmemL5UJQ&oh=00_AfcRMa0_oVy3pNX5Nz2mWlPzcMzDCBxRSmunK-IuCsMD9Q&oe=68F554C6",
+            "phone": "01229241435",
+            "address": "Alexandria, Egypt",
+        },
+    },
+    {
+        "instructor": {
+            "_id": "102",
+            "name": "مايكل مجدي",
+            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/311207388_10229755721734382_4546143050668642436_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGrl2JIJPdEhbaubQ3B7XYzjz49v5tNsSKPPj2_m02xIuZsw9cGiM4plx8Zy_5FZ8Y_MPJT_9X0jkdwOxf-pl9B&_nc_ohc=R7g7S9YOdWMQ7kNvwEnyj21&_nc_oc=AdkNkyrHsacX73HbevkZecZrpCOJr-hcX26iZ-ojD29KRqhVRH9slwaGWpxHSf7n5go&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=-2lhBvhLeb9pQ3iw7YQyLg&oh=00_AfdbG9m4_S0XEhsG5-ZPZsGHT8GYiIw3oWsetcWaRKheZQ&oe=68F54A91",
+            "phone": "01224241831",
+            "address": "Alexandria, Egypt",
+        },
+    },
+    {
+        "instructor": {
+            "_id": "103",
+            "name": "مارك ايهاب",
+            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-1/555979160_2651463885197478_7998890361815190387_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeGAtR3PAx3kdDfdK_P_qRbvGN3MwdUBGm0Y3czB1QEabaTRo_DDPXNwfcD-hJco2k-0Mh913suiP7suiPm09Zqk&_nc_ohc=uiJpmA_W1F4Q7kNvwHWU7l-&_nc_oc=AdmBkm4Gmr6pGGhjOefvgR0HLAeKTG1td3gCPntMGkpExz4gdptmfBZy0_pOJGzl5NQ&_nc_zt=24&_nc_ht=scontent.fcai19-8.fna&_nc_gid=KflvUDdcLWiQHpX0K-jKKQ&oh=00_AfddPV2EOicKlIfVksYrfnOKYMk0952Kf9jaKZlYIdb5XQ&oe=68F557C5",
+            "phone": "01289328482",
+            "address": "Alexandria, Egypt",
+        },
+    },
+    {
+        "instructor": {
+            "_id": "104",
+            "name": "شنوده باسم",
+            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/513836485_24018700261151914_6444293699713403902_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGlHjnoaJv78lvx6vrN5ZA9tRAVDVf_JiC1EBUNV_8mIFexFs5ppVV6jNQj5vZaNxmWwLEsKaxndYjuYa9Mllle&_nc_ohc=0Jxh-jYpbOQQ7kNvwHK0BcE&_nc_oc=AdkbVbJyhgiFBWdoAlP8W1f17rtvOoNLofQcXltA25WqnqJW01E6x9iulafAZq-nNMA&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=fh5EqJI4xk0LGNTBRW1dpA&oh=00_AfeYfMxHCIvpG5gBiy_ecdLvGQ4shV5uTxyBGCdBt9E-mA&oe=68F54A4C",
+            "phone": "01551155090",
+            "address": "Alexandria, Egypt",
+        },
+    },
+    {
+        "instructor": {
+            "_id": "105",
+            "name": "كيرلس شكري",
+            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/454778738_3866136360273272_3172187173891861601_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF0G2tsSgK3EzQ2NrzMQLzxMZii83rljiAxmKLzeuWOIH7N6c5dftvlrPUxpnRZeRA9M82PDKhdL_HoR95SSj83&_nc_ohc=LfJknFOOzwcQ7kNvwF0wh_m&_nc_oc=AdkheVwxYZY-7BXsk5iaaI8RwGthoxxkDstA_hfPdSheiY8v3oXHW_PluCNzQ4XT9Ic&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=d7SYfzqdfraIndEFAKpArQ&oh=00_Afeekb4YH37LElTLjc59OCU7za_56YBvcgfMrlZ3v1gNtw&oe=68F55387",
+            "phone": "01276626863",
+            "address": "Alexandria, Egypt",
+        },
+    },
+    {
+        "instructor": {
+            "_id": "106",
+            "name": "فيلوباتير شكري",
+            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/424661327_1552616042221189_2657625243152195027_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFuRxNIm9Bgv2U9RWoeVC-y-hIneWswdK76Eid5azB0rhsEpSr45HCN9Xl5CX5t9Qkn1shOsFAwcj0oaXn-H-hx&_nc_ohc=pGJY8Av4mS8Q7kNvwHLOT9l&_nc_oc=Adl0F6osE4dX8zkFND_637oPgRu9ruRiYjty1YVM8jbWBIAv7CXq1iCCsqltz8EMubE&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=x99QiJGlMSEkJfFi0jIVYw&oh=00_Affy4BRUE2ZCWHokWySvOSDKO4USSwVyi_FlAf5sB6onyw&oe=68F56190",
+            "phone": "01225525117",
+            "address": "Alexandria, Egypt",
+        },
+    },
+]
+
 
 export const dummyData = [
+
     {
         "student": {
             "_id": "1",

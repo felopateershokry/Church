@@ -11,11 +11,18 @@ function Home() {
             <div className="home-image">
                 <img src={assets.home} alt="" />
             </div>
-            <Link to={"/list"}>
-                <button className="home-button">
-                    ابدا
-                </button>
-            </Link>
+            <div className='btns'>
+                <Link to={"/list-khodam"}>
+                    <button className="home-button">
+                        الخدام
+                    </button>
+                </Link>
+                <Link to={"/list"}>
+                    <button className="home-button">
+                        المخدومين
+                    </button>
+                </Link>
+            </div>
         </div>
     )
 }
