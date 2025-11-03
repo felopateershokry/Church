@@ -69,7 +69,7 @@ export const dummyKhodam = [
         "instructor": {
             "_id": "101",
             "name": "سمير شحاته",
-            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/560452038_10239126476810369_4581413323673400630_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG4JTpgYIBoNe5Bc6IzomMPMUmQtKpsfE8xSZC0qmx8T46CKJv7zB4vsCUlnLPqRxvrZn1XYYqZfEf86TVC5BYi&_nc_ohc=gH3hZCWRYjEQ7kNvwFyQkvD&_nc_oc=Adm5qVblZhhIufN4eazyz9dhrFl4p9VouCGewzLw-SHLCCwDaoq1sJUwE0hIZrhVx4U&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=CciBULKZmj4VMGmemL5UJQ&oh=00_AfcRMa0_oVy3pNX5Nz2mWlPzcMzDCBxRSmunK-IuCsMD9Q&oe=68F554C6",
+            "imageUrl": home,
             "phone": "01229241435",
             "address": "Alexandria, Egypt",
         },
@@ -78,7 +78,7 @@ export const dummyKhodam = [
         "instructor": {
             "_id": "102",
             "name": "مايكل مجدي",
-            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/311207388_10229755721734382_4546143050668642436_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGrl2JIJPdEhbaubQ3B7XYzjz49v5tNsSKPPj2_m02xIuZsw9cGiM4plx8Zy_5FZ8Y_MPJT_9X0jkdwOxf-pl9B&_nc_ohc=R7g7S9YOdWMQ7kNvwEnyj21&_nc_oc=AdkNkyrHsacX73HbevkZecZrpCOJr-hcX26iZ-ojD29KRqhVRH9slwaGWpxHSf7n5go&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=-2lhBvhLeb9pQ3iw7YQyLg&oh=00_AfdbG9m4_S0XEhsG5-ZPZsGHT8GYiIw3oWsetcWaRKheZQ&oe=68F54A91",
+            "imageUrl": home,
             "phone": "01224241831",
             "address": "Alexandria, Egypt",
         },
@@ -87,7 +87,7 @@ export const dummyKhodam = [
         "instructor": {
             "_id": "103",
             "name": "مارك ايهاب",
-            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-1/555979160_2651463885197478_7998890361815190387_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeGAtR3PAx3kdDfdK_P_qRbvGN3MwdUBGm0Y3czB1QEabaTRo_DDPXNwfcD-hJco2k-0Mh913suiP7suiPm09Zqk&_nc_ohc=uiJpmA_W1F4Q7kNvwHWU7l-&_nc_oc=AdmBkm4Gmr6pGGhjOefvgR0HLAeKTG1td3gCPntMGkpExz4gdptmfBZy0_pOJGzl5NQ&_nc_zt=24&_nc_ht=scontent.fcai19-8.fna&_nc_gid=KflvUDdcLWiQHpX0K-jKKQ&oh=00_AfddPV2EOicKlIfVksYrfnOKYMk0952Kf9jaKZlYIdb5XQ&oe=68F557C5",
+            "imageUrl": home,
             "phone": "01289328482",
             "address": "Alexandria, Egypt",
         },
@@ -96,29 +96,29 @@ export const dummyKhodam = [
         "instructor": {
             "_id": "104",
             "name": "شنوده باسم",
-            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/513836485_24018700261151914_6444293699713403902_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGlHjnoaJv78lvx6vrN5ZA9tRAVDVf_JiC1EBUNV_8mIFexFs5ppVV6jNQj5vZaNxmWwLEsKaxndYjuYa9Mllle&_nc_ohc=0Jxh-jYpbOQQ7kNvwHK0BcE&_nc_oc=AdkbVbJyhgiFBWdoAlP8W1f17rtvOoNLofQcXltA25WqnqJW01E6x9iulafAZq-nNMA&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=fh5EqJI4xk0LGNTBRW1dpA&oh=00_AfeYfMxHCIvpG5gBiy_ecdLvGQ4shV5uTxyBGCdBt9E-mA&oe=68F54A4C",
+            "imageUrl": home,
             "phone": "01551155090",
             "address": "Alexandria, Egypt",
         },
     },
-    {
-        "instructor": {
-            "_id": "105",
-            "name": "كيرلس شكري",
-            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/454778738_3866136360273272_3172187173891861601_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF0G2tsSgK3EzQ2NrzMQLzxMZii83rljiAxmKLzeuWOIH7N6c5dftvlrPUxpnRZeRA9M82PDKhdL_HoR95SSj83&_nc_ohc=LfJknFOOzwcQ7kNvwF0wh_m&_nc_oc=AdkheVwxYZY-7BXsk5iaaI8RwGthoxxkDstA_hfPdSheiY8v3oXHW_PluCNzQ4XT9Ic&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=d7SYfzqdfraIndEFAKpArQ&oh=00_Afeekb4YH37LElTLjc59OCU7za_56YBvcgfMrlZ3v1gNtw&oe=68F55387",
-            "phone": "01276626863",
-            "address": "Alexandria, Egypt",
-        },
-    },
-    {
-        "instructor": {
-            "_id": "106",
-            "name": "فيلوباتير شكري",
-            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/424661327_1552616042221189_2657625243152195027_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFuRxNIm9Bgv2U9RWoeVC-y-hIneWswdK76Eid5azB0rhsEpSr45HCN9Xl5CX5t9Qkn1shOsFAwcj0oaXn-H-hx&_nc_ohc=pGJY8Av4mS8Q7kNvwHLOT9l&_nc_oc=Adl0F6osE4dX8zkFND_637oPgRu9ruRiYjty1YVM8jbWBIAv7CXq1iCCsqltz8EMubE&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=x99QiJGlMSEkJfFi0jIVYw&oh=00_Affy4BRUE2ZCWHokWySvOSDKO4USSwVyi_FlAf5sB6onyw&oe=68F56190",
-            "phone": "01225525117",
-            "address": "Alexandria, Egypt",
-        },
-    },
+    // {
+    //     "instructor": {
+    //         "_id": "105",
+    //         "name": "كيرلس شكري",
+    //         "imageUrl": home,
+    //         "phone": "01276626863",
+    //         "address": "Alexandria, Egypt",
+    //     },
+    // },
+    // {
+    //     "instructor": {
+    //         "_id": "106",
+    //         "name": "فيلوباتير شكري",
+    //         "imageUrl": home,
+    //         "phone": "01225525117",
+    //         "address": "Alexandria, Egypt",
+    //     },
+    // },
 ]
 
 
@@ -128,7 +128,7 @@ export const dummyData = [
         "student": {
             "_id": "1",
             "name": "امير يوسف",
-            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/492072519_655130047439274_4672872209082357389_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFHcDEc6CllvVWMUbxYkD-Tus0El4VAm_26zQSXhUCb_RTQIkX07-Yn8vfP7hubh6WqnBy8mz61PiCkTbOtciGC&_nc_ohc=CGCFkmHGpsoQ7kNvwGKAaik&_nc_oc=AdkLd0F-prpnkzLBb3KxT7JzHs_g8YyZcE3dt0XNEe3eEkGXfxeIKo5S7XOBGu56Xs8&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=Jjy4VyWZEjj2kyVCtwFjVw&oh=00_AfekTgUmjlJ71agxFIP3Jd3Bu49I20_2pQNPXMIDwgvxSA&oe=68F4937B",
+            "imageUrl": home,
             "phone": "01281931772",
             "address": "Alexandria, Egypt",
             "date": "15/09/2009",
@@ -138,7 +138,7 @@ export const dummyData = [
         "student": {
             "_id": "2",
             "name": "روفائيل سامي",
-            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/528771587_1706269720763873_4178518167070740098_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHTGU2Tlgiw0uE6AQgJtkUGfIw8sRpvVYh8jDyxGm9ViKanU6LoU2FX5ooeb5Qu5nbUUJtmJ69QrkA1fPxLL6js&_nc_ohc=p6P3HEiq7GwQ7kNvwETqmMu&_nc_oc=AdmubBKZqzy0y0IZsYBB3FD1zj2eHXaySpXjNbVpGhSAEVByUeSiTQ0ThLQYY5muNOY&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=9GPJYjSRbVN8A_f1FQI3Zw&oh=00_AfcQGvWOd8qSOt1I2tcy0SIFCU4e7tYUut0KIm8WLby_pQ&oe=68F46EAB",
+            "imageUrl": home,
             "phone": "01279133490",
             "address": "Alexandria, Egypt",
             "date" : "29/04/2009",
@@ -148,7 +148,7 @@ export const dummyData = [
         "student": {
             "_id": "3",
             "name": "فيلوباتير اشرف",
-            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/490491869_1465695117733582_5073919057490476748_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGgQEmpi0ditpSEMV7NJ6bzuhuymez_ylK6G7KZ7P_KUu_FnvZsSElgkLe7aZoa7uH3Htlm1kMqdfd2FzzAauOm&_nc_ohc=sLG3JMPwu1wQ7kNvwFe7v3M&_nc_oc=AdlsTtG_jyEK6qv74HUMnjUYKzS9QfUf_1sKkq5J4IvACbjLLO_e5FDTvczmFm1h2UI&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=JU6RJ7vnT-F0onaBhEanjA&oh=00_AfcVpDqwhjFoMVv2swk6N--RpML8UigNKfIMywrHRD76YQ&oe=68F46690",
+            "imageUrl": home,
             "phone": "01278503038",
             "address": "Alexandria, Egypt",
             "date" : "12/10/2009",
@@ -158,7 +158,7 @@ export const dummyData = [
         "student": {
             "_id": "4",
             "name": "فادي بطرس",
-            "imageUrl": "https://scontent.fcai19-8.fna.fbcdn.net/v/t39.30808-6/491948176_1255259139276304_34009493809222305_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG8HLJp9K_-jxxwLNkN15NPT1GnHeR13JJPUacd5HXckih6CWo0s4WKVfq0NYoOyrpG_3wCM69uI8PS7A3DvDaG&_nc_ohc=fs-rYMDOTFMQ7kNvwFv1L4l&_nc_oc=Admukc2tpdkUFm7CxC6X5eylyCMVncKsTHyBreAtq1v_j76aErrr283OkBS2fI9Sr4Y&_nc_zt=23&_nc_ht=scontent.fcai19-8.fna&_nc_gid=9gbM8bnuI_IaaxdUxRLVJg&oh=00_Affr9mtf-dgiBbN4cbFTXfPGFeeVAsIFkIAeyVXbnDC0Ow&oe=68F49935",
+            "imageUrl": home,
             "phone": "01201995421",
             "address": "Alexandria, Egypt",
             "date" : "21/08/2009",
