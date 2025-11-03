@@ -9,6 +9,7 @@ const CourseCard = ({ course }) => {
             <img src={course.imageUrl} alt="" />
             <div className="card-body">
                 <h3>{course.name}</h3>
+                <p className='amin'>{course.notes ? course.notes : ""}</p>
             </div>
         </Link>
 

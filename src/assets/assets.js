@@ -72,6 +72,7 @@ export const dummyKhodam = [
             "imageUrl": home,
             "phone": "01229241435",
             "address": "Alexandria, Egypt",
+            "notes": "امين الخدمة",
         },
     },
     {
@@ -101,24 +102,24 @@ export const dummyKhodam = [
             "address": "Alexandria, Egypt",
         },
     },
-    // {
-    //     "instructor": {
-    //         "_id": "105",
-    //         "name": "كيرلس شكري",
-    //         "imageUrl": home,
-    //         "phone": "01276626863",
-    //         "address": "Alexandria, Egypt",
-    //     },
-    // },
-    // {
-    //     "instructor": {
-    //         "_id": "106",
-    //         "name": "فيلوباتير شكري",
-    //         "imageUrl": home,
-    //         "phone": "01225525117",
-    //         "address": "Alexandria, Egypt",
-    //     },
-    // },
+    {
+        "instructor": {
+            "_id": "105",
+            "name": "كيرلس شكري",
+            "imageUrl": home,
+            "phone": "01276626863",
+            "address": "Alexandria, Egypt",
+        },
+    },
+    {
+        "instructor": {
+            "_id": "106",
+            "name": "فيلوباتير شكري",
+            "imageUrl": home,
+            "phone": "01225525117",
+            "address": "Alexandria, Egypt",
+        },
+    },
 ]
 
 
