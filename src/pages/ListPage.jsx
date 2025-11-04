@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { fetchPeople } from '../utils/api';
+import { dummyData } from '../assets/assets';
 import CourseCard from '../components/CourseCard';
-import { assets } from '../assets/assets';
 import './listPage.css'
 
 function ListPage() {
@@ -10,31 +9,8 @@ function ListPage() {
     const navigate = useNavigate();
 
     const [allCourses, setAllCourses] = useState([]);
-    const [loading, setLoading] = useState(true);
-    
     async function fetchallCourses() {
-        try {
-            setLoading(true);
-            const people = await fetchPeople();
-            // Map backend data structure to frontend expected format
-            const mappedData = people.map(person => ({
-                student: {
-                    _id: person.id,
-                    name: person.name,
-                    imageUrl: person.imageUrl || assets.home,
-                    phone: person.phone || '',
-                    address: person.address || '',
-                    date: person.date || '',
-                    attendance: person.attendance || 'absent'
-                }
-            }));
-            setAllCourses(mappedData);
-        } catch (error) {
-            console.error('Error fetching courses:', error);
-            setAllCourses([]);
-        } finally {
-            setLoading(false);
-        }
+        setAllCourses(dummyData);
     }
 
     const { input } = useParams();
@@ -55,8 +31,6 @@ function ListPage() {
                     )
                 )
                 : setFilteredCourses(tempCourses);
-        } else {
-            setFilteredCourses([]);
         }
     }
     , [allCourses, input]);
@@ -76,15 +50,9 @@ function ListPage() {
                     </div>
                 </div>
                 <div className="course-list-grid">
-                    {loading ? (
-                        <div>جاري التحميل...</div>
-                    ) : filteredCourses.length > 0 ? (
-                        filteredCourses.map((course, index) => (
-                            <CourseCard key={course.student._id || index} course={course.student} />
-                        ))
-                    ) : (
-                        <div>لا توجد بيانات</div>
-                    )}
+                    {filteredCourses.map((course, index) => (
+                        <CourseCard key={index} course={course.student} />
+                    ))}
                 </div>
             </div>
         </>
