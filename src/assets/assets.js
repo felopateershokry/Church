@@ -1,10 +1,14 @@
 import logo from './download.jpeg'
 import home from './images.jpeg'
+import whatsapp from './whatsapp.png'
+import call from './phone-call.png'
 
 
 export const assets = {
     logo,
-    home
+    home,
+    whatsapp,
+    call
 }
 
 // export const dummyEducatorData = {

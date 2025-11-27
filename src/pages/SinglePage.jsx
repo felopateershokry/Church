@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./SinglePage.css";
-import { dummyData } from './../assets/assets';
+import { assets, dummyData } from './../assets/assets';
 
 const SinglePage = () => {
     const { id } = useParams();
@@ -29,15 +29,26 @@ const SinglePage = () => {
             className="student-img"
             />
             <div className="student-info">
-            <h1 className="student-name">{studentData.name}</h1>
-            <p><span> الهاتف:</span> {studentData.phone}</p>
-            <p><span> العنوان:</span> {studentData.address}</p>
-            <p><span> تاريخ الميلاد:</span> {studentData.date}</p>
+                <h1 className="student-name">{studentData.name}</h1>
+                <p>
+                        <span> الهاتف:</span> 
+                        {studentData.phone}
+                        <a href={`tel:${studentData.phone}`} target="_blank" rel="noopener noreferrer" className="whatsapp-icon">
+                            <img src={assets.call} alt="call" width="22" height="22"/>
+                    </a>
+                    <a href={`https://wa.me/20${studentData.phone}`} target="_blank" rel="noopener noreferrer"  className="whatsapp-icon">
+                        <img src={assets.whatsapp} alt="WhatsApp" width="22" height="22"/>
+                    </a>
+                </p>
 
-            <button className="back-btn" onClick={() => navigate("/list")}>
-                ⬅ العودة إلى القائمة
-            </button>
+                <p><span> العنوان:</span> {studentData.address}</p>
+                <p><span> تاريخ الميلاد:</span> {studentData.date}</p>
+
+                <button className="back-btn" onClick={() => navigate("/list")}>
+                    ⬅ العودة إلى القائمة
+                </button>
             </div>
+
         </div>
         </div>
     );
